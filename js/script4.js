@@ -36,7 +36,7 @@ document.querySelector('#btn-2').onclick = (event) => {
 
 
 let DZ = '4';
-document.querySelector('#p1').onclick = () => {
+document.querySelector('#b-1').onclick = () => {
    // DZ = document.querySelector('#b-2').value;
-    alert('Домашнее задание номер ' + DZ);
+    alert(`Номер задания ${document.querySelector('#t1').value}`);
 }
