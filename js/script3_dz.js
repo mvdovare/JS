@@ -4,7 +4,7 @@
 
 
 const button = document.querySelector('button');
-const input = document.querySelector('.i-1');
+const input = document.querySelector('.number');
 
 let div = document.querySelector('.out');
 let div2 = document.querySelector('.out2');
