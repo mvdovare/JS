@@ -13,21 +13,25 @@ let out = document.querySelector('.out');
 //     out.innerHTML += '<hr>';
 // }
 
-for (let i = 0; i < 3; i++){
-    for (let k = 0; k < 3; k++){
-        out.innerHTML +='*';
-    }
-    out.innerHTML +='_';
-}
+// let s = '';
+// for (let i = 0; i < 3; i++){
+//     for (let k = 0; k < 3; k++){
+//         s +='*';
+//     }
+//     s +='_';
+// }
+// out.innerHTML = s;
 
-out.innerHTML += '<hr>';
+// out.innerHTML += '<hr>';
 
 for (let i = 1; i < 4; i++){
     out.innerHTML += i + '<br>';
     for (let k = 0; k < 3; k++){
         out.innerHTML += '*_';
+        if (k==2){
+            out.innerHTML +='<br>';
+        }
     }
-    out.innerHTML +='<br>';
 }
 
 out.innerHTML += '<hr>';
